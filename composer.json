@@ -1,0 +1,34 @@
+{
+    "name": "store/php",
+    "description": "v1",
+    "require": {
+        "psr/log": "^1.1",
+        "claviska/simpleimage": "^3.3",
+        "symfony/yaml": "^5.0",
+        "predis/predis": "^1.1"
+    },
+    "autoload":{
+        "classmap": [
+            "core/library/route",
+            "core/library/service",
+            "core/library/db",
+            "core/library/international",
+            "core/library/layout",
+            "core/library/logger",
+            "core/library/slack",
+            "core/library/stores",
+            "core/library/encrypt",
+            "apis/idx",
+            "apis/api",
+            "apis/error"
+        ],
+        "files": [
+            "core/message/error.php",       
+            "core/message/message.php",
+            "core/function/function.php"     
+        ]
+    },
+    "require-dev": {
+        "mockery/mockery": "^1.3"
+    }
+}

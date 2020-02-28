@@ -1,0 +1,10 @@
+-- A Light MVC framework to PHP --
+
+// Folder description
+/apis    mapping route rule present layer code base
+/app     system main entrance and related config 
+/core    system lib and func place
+/stores  business logic, Controller and Model 
+/vendor  composer manage thrid-party application
+/web.static   (option) static file place, such as images, js, css or upload file   
+/web.view     (option) server-side rander place

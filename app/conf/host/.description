@@ -1,0 +1,5 @@
+this folder contain the configuration of your web application
+e.g., 
+db connection setup
+redis setup
+or other required setup
